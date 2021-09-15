@@ -1,9 +1,10 @@
 
 body {
-  padding: 5em;
+  padding: 1em 5em;
   font-family: sans-serif;
-  max-width: 768px;
+  max-width: 75ch;
   margin: 0 auto;
+  font-size: 1.2em;
 }
 
 p {
@@ -20,6 +21,10 @@ cite {
 
 figure img {
   width: 20em;
+}
+
+h1 {
+  display: none;
 }
 
 .flex-center {
@@ -48,6 +53,14 @@ figure img {
 
 .left-margin {
   margin-left: 2em;
+}
+
+.margin-x {
+  margin: 0.4em 0;
+}
+
+.margin-none {
+  margin: 0;
 }
 
 .bold {
