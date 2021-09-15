@@ -7,7 +7,7 @@ body {
 }
 
 p {
-  // max-width: 75ch;
+  margin: 1.4em 0;
 }
 
 blockquote {
@@ -46,18 +46,26 @@ figure img {
   align-self: center;
 }
 
+.left-margin {
+  margin-left: 2em;
+}
+
 .bold {
   font-weight: 600;
+}
+
+.gallery {
+  margin: 2em 0;
+}
+
+.book {
+  margin: 3em 0;
 }
 
 .book > img {
   float: left;
   margin-right: 2em;
   width: 10em;
-}
-
-.left-margin {
-  margin-left: 2em;
 }
 
 .logo {
