@@ -1,0 +1,55 @@
+
+body {
+  padding: 5em;
+  font-family: sans-serif;
+}
+
+figure {
+  align-self: center;
+}
+
+blockquote {
+  margin: 1em 0;
+}
+
+cite {
+  font-weight: 600;
+}
+
+figure img {
+  width: 20em;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-left {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.flex-full {
+  flex: 1 0 100%;
+}
+
+.align-left {
+  align-self: flex-start;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.book > img {
+  float: left;
+  margin-right: 2em;
+  width: 10em;
+}
+
+.left-margin {
+  margin-left: 2em;
+}
