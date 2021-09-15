@@ -2,10 +2,12 @@
 body {
   padding: 5em;
   font-family: sans-serif;
+  max-width: 768px;
+  margin: 0 auto;
 }
 
-figure {
-  align-self: center;
+p {
+  // max-width: 75ch;
 }
 
 blockquote {
@@ -40,6 +42,10 @@ figure img {
   align-self: flex-start;
 }
 
+.align-center {
+  align-self: center;
+}
+
 .bold {
   font-weight: 600;
 }
@@ -52,4 +58,8 @@ figure img {
 
 .left-margin {
   margin-left: 2em;
+}
+
+.logo {
+  max-width: 100%;
 }
