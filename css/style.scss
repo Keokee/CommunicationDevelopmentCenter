@@ -7,6 +7,11 @@ body {
   font-size: 1.2em;
 }
 
+// Fix issue with fancybox
+body.compensate-for-scrollbar {
+  padding-right: 5em;
+}
+
 p {
   margin: 1.4em 0;
 }
