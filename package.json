@@ -14,5 +14,13 @@
   "dependencies": {
     "@fancyapps/ui": "^4.0.4",
     "sass": "^1.41.0"
+  },
+  "staticFiles": {
+    "staticPath": [
+      {
+        "staticPath": ["favicon.ico"],
+        "watcherGlob": "**"
+      }
+    ]
   }
 }
